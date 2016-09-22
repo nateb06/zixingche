@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0px;}
+img{display:block; border:0;}
+a{text-decoration:none;}
+ul,li{list-style:none;}
+body{font:12px "微软雅黑"; background:#eaeaea;}
+
+.top{height:150px; background:#1b1c20;}
+.topcenter{width:1000px; margin:0 auto;}
+
+.topleft{float:left; width:240px;}
+.topleft h1{margin-top:30px;}
+.topleft ul{float:left; margin:30px 0 0 -12px;}
+.topleft li{float:left; border-right:1px solid #3a503c; padding:0 12px;}
+.topleft .noright{border:0;}
+.topleft a{color:#bdbdbd;}
+
+.topright{display:block; width:655px; float:right; height:150px;}
+.topright li{float:left; margin-right:1px;}
+.topright a{display:block; width:57px; height:143px; line-height:143px; border-left:1px solid #33363b; border-bottom:7px solid #33363b; padding:0 17px 0; color:#fff;}
+.topright a:hover{border-bottom:7px solid #f00;}
+
+
+.banner{width:1000px; height:400px; margin:2px auto 0; background:url(../images/banner.png);}
+
+.news{width:948px; height:218px; background:#fff;  margin:0 auto; padding:26px 26px 34px;}
+.newsleft{width:325px; height:215px; background:url(../images/xiao1.png) no-repeat; float:left;}
+.newsleft h2{margin-left:40px; width:284px; height:31px; font-size:14px; background:url(../images/bian.png) repeat-x left bottom;}
+.news h2 p{float:right; font-size:8px; line-height:20px; color:#7ecae4;}
+.newsleft img{float:left; padding:10px 10px 5px;}
+
+.newsright{width:555px; height:216px; float:right; background:url(../images/xiao2.png) no-repeat; padding-left:40px;}
+.newsright h2{ width:558px; height:31px; font-size:14px; background:url(../images/bian.png) repeat-x left bottom;}
+.newsright dl{float:left; margin:20px 7px 0 0;}
+.newsright dt{border:1px solid #d6d6d6;}
+.newsright dd{text-align:center; margin-top:18px;}
+
+
+.bottom{width:1000px; height:160px; background:#1e1d22;  margin:0 auto; color:#bbbbbb; padding-top:15px;}
+.bottom p{text-align:center; line-height:22px;}
+.bottom a{color:#bbbbbb; margin-left:20px;}
+.bottom ul{width:337px; height:12px; margin:20px auto 25px; }
+.bottom li{border-right:1px solid #98bb99; float:left;}
+.bottom li a{display:block; margin:0 12px;}
+.bottom .noborder{border:0;}
+
+
